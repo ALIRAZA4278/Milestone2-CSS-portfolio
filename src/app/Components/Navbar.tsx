@@ -1,3 +1,4 @@
+import Link from 'next/link'; // Import Link from Next.js
 import './Navbar.css';
 
 function Navbar() {
@@ -6,11 +7,11 @@ function Navbar() {
             <nav className="navbar">
                 <p className="navbar-title">ALI <span>RAZA</span></p>
                 <ul className="nav-menu">
-                    <li className="nav-item"><a href="/">Home</a></li>
-                    <li className="nav-item"><a href="/About">About</a></li>
-                    <li className="nav-item"><a href="/Skills">Skills</a></li>
-                    <li className="nav-item"><a href="/Projects">Projects</a></li>
-                    <li className="nav-item"><a href="/Contact">Contact</a></li>
+                    <li className="nav-item"><Link href="/">Home</Link></li>
+                    <li className="nav-item"><Link href="/About">About</Link></li>
+                    <li className="nav-item"><Link href="/Skills">Skills</Link></li>
+                    <li className="nav-item"><Link href="/Projects">Projects</Link></li>
+                    <li className="nav-item"><Link href="/Contact">Contact</Link></li>
                 </ul>
             </nav>
         </div>

@@ -10,12 +10,12 @@ export default function About() {
           Let me share a bit about my journey:
         </h3>
         <p className="mt-4 text-lg text-gray-350 mx-auto max-w-5xl">
-          Hey there! I'm Ali Raza, an 18-year-old with an insatiable passion
+          Hey there! I&apos;m Ali Raza, an 18-year-old with an insatiable passion
           for web development, AI, and the fascinating world of chatbots. Let
           me take you on a brief journey through my experiences.
         </p>
         <p className="mt-4 text-lg text-gray-350 mx-auto max-w-4xl">
-          My academic journey began at St. Lawrence’s High School, where I completed my
+          My academic journey began at St. Lawrence&rsquo;s High School, where I completed my
           matriculation. I then continued my educational pursuit at the
           esteemed Government College of Commerce and Economic for my
           intermediate studies. Fuelled by my profound love for technology, I
@@ -34,14 +34,14 @@ export default function About() {
         <p className="mt-4 text-lg text-gray-350 mx-auto max-w-4xl">
           My expertise lies in crafting robust web applications using the MERN
           stack, always with a keen eye on enhancing user experience. But
-          that's not all – I'm also immersing myself in the dynamic realms of
+          that&apos;s not all &ndash; I&apos;m also immersing myself in the dynamic realms of
           AI and chatbot development, eager to unravel their endless
           possibilities.
         </p>
         <p className="mt-4 text-lg text-gray-350 mx-auto max-w-4xl">
-          If you're as passionate about these fields as I am, don't hesitate
-          to connect! I'm always on the lookout for exciting collaborations
-          and projects that push the boundaries of innovation. Let's create
+          If you&apos;re as passionate about these fields as I am, don&apos;t hesitate
+          to connect! I&apos;m always on the lookout for exciting collaborations
+          and projects that push the boundaries of innovation. Let&apos;s create
           something extraordinary together! 🚀
         </p>
         <div className="flex justify-center mt-8">
