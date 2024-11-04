@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -19,16 +21,23 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+  children, }: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body data-bs-theme="dark" className="bg-gray-900 text-gray-300 scroll-smooth overflow-x-hidden overflow-y-scroll ">
+        <Navbar />
         {children}
+        <Footer />
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger
+          intent="WELCOME"
+          chat-title="Ali_Raza"
+          agent-id="4f4d084a-16f9-455a-a64e-08d66d441703"
+          language-code="en"
+        ></df-messenger>
+
+
+
       </body>
     </html>
   );
